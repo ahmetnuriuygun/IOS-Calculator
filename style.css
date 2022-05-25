@@ -1,0 +1,62 @@
+*{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.container{
+    display: grid;
+    background-color: black;
+    width: 400px;
+    height: 610px;
+    margin-left: 400px;
+    border-radius: 30px;
+    margin-top: 30px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr;
+    gap: 1px;
+    row-gap: 7px; 
+    
+    
+}
+.box{
+    
+    width: 20px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 150px;
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    margin-right: 3px;
+    text-align: center;
+    display: inline-block;
+    display: flex;
+}
+.box17{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 180px;
+    
+}
+.box1,.box2,.box3{
+background-color:rgb(174, 169, 169);
+margin-top: 180px;
+
+}
+.box4{
+    margin-top: 180px;
+}
+.box4,.box8,.box12,.box16{
+    background-color: orange;
+    color: white;
+    }
+.box5,.box6,.box7,.box9,.box10,.box11,.box13,.box14,.box15,.box17,.box18,.box19{
+        background-color: rgb(81, 78, 78);
+        color: white;
+}   
+.box:hover{
+    background-color: rgb(44, 42, 42);
+} 
+.box17,.box18,.box19{
+    margin-bottom: 100px;
+}
